@@ -5,7 +5,8 @@ class AuthService {
   constructor() {
     this.service = axios.create({
       baseURL: 'http://localhost:3010/auth',
-      withCredentials: true
+      withCredentials: true,
+      useUnifiedTopology: true
     });
   }
 
