@@ -1,15 +1,16 @@
 
 import React, { Component } from "react";
-import "./Navbar.css";
+import "./Footer.css";
 
-class Navbar extends Component {
+class Footer extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>Navbar</header>
+        <header>Hola</header>
+        <p>holita</p>
       </React.Fragment>
     );
   }
 }
 
-export default Navbar;
+export default Footer;

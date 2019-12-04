@@ -1,15 +1,15 @@
 
 import React, { Component } from "react";
-import "./Navbar.css";
+import "./Home.css";
 
-class Navbar extends Component {
+class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>Navbar</header>
+        <header>Home</header>
       </React.Fragment>
     );
   }
 }
 
-export default Navbar;
+export default Home;
