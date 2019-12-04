@@ -19,6 +19,7 @@ mongoose
     useUnifiedTopology: true
   })
   .then(() => {
+    console.log(`YEP! :')`)
     console.log(`Connected to Mongo on ${DBURL}`)
   }).catch(err => {
     console.error('Error connecting to mongo', err)
