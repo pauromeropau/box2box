@@ -1,15 +1,15 @@
 
 import React, { Component } from "react";
-import "./Navbar.css";
+import "./Zip.css";
 
-class Navbar extends Component {
+class Zip extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>Navbar</header>
+        <header>Intro ZIP</header>
       </React.Fragment>
     );
   }
 }
 
-export default Navbar;
+export default Zip;
