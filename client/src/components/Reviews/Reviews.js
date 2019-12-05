@@ -4,7 +4,7 @@ class Reviews extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>Reviews</header>
+        <p>Reviews</p>
       </React.Fragment>
     );
   }

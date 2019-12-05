@@ -5,7 +5,7 @@ class HowItWorks extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>How It Works</header>
+        <p>How It Works</p>
       </React.Fragment>
     );
   }

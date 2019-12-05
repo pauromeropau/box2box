@@ -136,3 +136,26 @@ header {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/* START HERE */
+
+
+.Intro {
+  min-height: 100vh;
+  border: 6px solid red;
+}
+.HowItWorks {
+  min-height: 100vh;
+}
+.Plans {
+  min-height: 100vh;
+}
+.Reviews {
+  min-height: 100vh;
+}
+.News {
+  min-height: 100vh;
+}
+.Footer {
+  min-height: 100vh;
+}
