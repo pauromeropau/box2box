@@ -5,7 +5,9 @@ class Plans extends Component {
   render() {
     return (
       <React.Fragment>
-        <p>Plans</p>
+        <section className="Plans">
+          <p>Plans</p>
+        </section>
       </React.Fragment>
     );
   }

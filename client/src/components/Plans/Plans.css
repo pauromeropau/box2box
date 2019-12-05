@@ -126,7 +126,7 @@ table {
   box-sizing: border-box;
   font-size: 10px;
 }
-header {
+/* header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -135,4 +135,11 @@ header {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+/* START HERE */
+
+.Plans {
+  min-height: 100vh;
+  border: 6px solid red;
 }

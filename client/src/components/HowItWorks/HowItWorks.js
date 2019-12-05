@@ -5,7 +5,9 @@ class HowItWorks extends Component {
   render() {
     return (
       <React.Fragment>
-        <p>How It Works</p>
+        <section className="HowItWorks">
+          <p>How It Works</p>
+        </section>
       </React.Fragment>
     );
   }

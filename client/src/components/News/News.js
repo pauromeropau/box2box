@@ -4,7 +4,9 @@ class News extends Component {
   render() {
     return (
       <React.Fragment>
-        <p>News</p>
+        <section className="News">
+          <p>News</p>
+        </section>
       </React.Fragment>
     );
   }
