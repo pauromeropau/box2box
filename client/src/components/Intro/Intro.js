@@ -5,7 +5,7 @@ class Zip extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>Intro ZIP</header>
+        <p>Intro ZIP</p>
       </React.Fragment>
     );
   }

@@ -4,7 +4,7 @@ class News extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>News</header>
+        <p>News</p>
       </React.Fragment>
     );
   }
