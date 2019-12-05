@@ -126,7 +126,7 @@ table {
   box-sizing: border-box;
   font-size: 10px;
 }
-header {
+/* header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -135,4 +135,40 @@ header {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+/* START HERE */
+
+.Intro {
+  min-height: 100vh;
+  /* border: 6px solid red; */
+  background-color: #F58549;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Intro-left {
+  max-width: 60vw;
+  /* padding: 5rem 0rem 0rem 0rem; */
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+}
+.Intro-header {
+  text-align: start;
+}
+.Intro-h1 {
+  text-align: start;
+}
+.Intro-right {
+  max-width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ZIPform-container {
+  background-color: white;
+}
+.Boxes-Image {
+  height: 60vh;
 }

@@ -13,12 +13,12 @@ class Home extends Component {
     return (
       <React.Fragment>
         <Navbar/>
-        <Intro className="Intro"/>
-        <HowItWorks className="HowItWorks"/>
-        <Plans className="Plans"/>
-        <Reviews className="Reviews"/>
-        <News className="News"/>
-        <Footer className="Footer"/>
+        <Intro/>
+        <HowItWorks/>
+        <Plans/>
+        <Reviews/>
+        <News/>
+        <Footer/>
       </React.Fragment>
     );
   }
