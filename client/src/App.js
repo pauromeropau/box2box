@@ -87,7 +87,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import { Switch, Route, Redirect } from "react-router-dom";
+// import { Switch, Route, Redirect } from "react-router-dom";
 
 import Home from "./Components/Home/Home";
 
