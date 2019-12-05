@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.css";
-import { Switch, Route, Redirec, Link } from "react-router-dom";
+// import { Switch, Route, Redirec, Link } from "react-router-dom";
 
 // import Home from "../Home/Home";
 // import HowItWorks from "../HowItWorks/HowItWorks";
@@ -12,7 +12,7 @@ class Navbar extends Component {
     return (
       <React.Fragment>
         <nav className="Navbar">
-          <ul>
+          <ul className="Navbar-container">
             <li>Inicio</li>
             <li>¿Cómo funciona?</li>
             <li>Tarifas</li>
