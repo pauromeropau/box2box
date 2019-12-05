@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 import "./News.css";
 class News extends Component {

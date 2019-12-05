@@ -85,13 +85,17 @@
 // export default App;
 
 import React, { Component } from "react";
-// import { Home } from "./Home/Home.js";
 import "./App.css";
+
+import { Switch, Route, Redirect } from "react-router-dom";
+
+import Home from "./Components/Home/Home";
+
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>App</header>
+        <Home/>
       </React.Fragment>
     );
   }
