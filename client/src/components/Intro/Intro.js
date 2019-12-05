@@ -1,6 +1,5 @@
-
 import React, { Component } from "react";
-import "./Zip.css";
+import "./Intro.css";
 
 class Zip extends Component {
   render() {
