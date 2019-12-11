@@ -1,6 +1,6 @@
 .Plans {
   min-height: 100vh;
-  padding: 2rem 0rem 2rem 0rem;
+  padding: 2rem 1rem 2rem 1rem;
 }
 
 .Plans-h1 {
@@ -14,19 +14,24 @@
   font-family: 'Fredoka One', cursive;
   text-align: start;
   font-size: 1.5rem;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 
 .Plans-p {
   text-align: start;
   font-size: 1.1rem;
-  line-height: 2rem;
+  line-height: 1.6rem;
   font-family: 'Open Sans', sans-serif;
 }
 
-.Plans-1, .Plans-2, .Plans-3, .Plans-4, .Plans-5{
+.Plans-1 {
+  min-height:10vh;
+  padding: 0rem 1rem 2rem 2rem;
+}
+
+.Plans-2, .Plans-3, .Plans-4, .Plans-5{
   min-height:18vh;
-  padding: 0rem 2rem 0rem 2rem;
+  padding: 0rem 1rem 0rem 1rem;
 }
 
 .Plans-small, .Plans-medium, .Plans-big, .Plans-business {
