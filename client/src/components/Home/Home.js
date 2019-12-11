@@ -7,6 +7,7 @@ import Plans from "../Plans/Plans";
 import Reviews from "../Reviews/Reviews";
 import News from "../News/News";
 import Footer from "../Footer/Footer";
+import Copyright from "../Copyright/Copyright";
 
 class Home extends Component {
   render() {
@@ -19,6 +20,7 @@ class Home extends Component {
         <Reviews/>
         <News/>
         <Footer/>
+        <Copyright/>
       </React.Fragment>
     );
   }
