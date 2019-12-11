@@ -13,23 +13,24 @@ class Footer extends Component {
           <section className="Footer-1">
             <div className="Contact">
               <h1 className="Contact-h1">Contacta</h1>
-              <p className="Contact-phone">600 27 73 30</p>
-              <p className="Contact-email">contacto@box2box.es</p>
+              <h2 className="Contact-h2">600 27 73 30</h2>
+              <h2 className="Contact-h2">contacto@box2box.es</h2>
               <p className="Contact-adress">Calle de Ríos Rosas, 36, 28003, Madrid</p>
             </div>
           </section>
           <section className="Footer-2">
             <div className="Cities">
-              <h1 className="Cities-h1">España</h1>
+            <h1 className="Cities-h1">¿Dónde estamos?</h1>
+              <h2 className="Cities-h2">España</h2>
               <p className="Cities-p">Madrid</p>
               <p className="Cities-p">Barcelona</p>
               <p className="Cities-p">Valencia</p>
               <p className="Cities-p">Málaga</p>
-              <h1 className="Cities-h1">Portugal</h1>
+              <h2 className="Cities-h2">Portugal</h2>
               <p className="Cities-p">Lisboa</p>
-              <h1 className="Cities-h1">Francia</h1>
+              <h2 className="Cities-h2">Francia</h2>
               <p className="Cities-p">París</p>
-              <h1 className="Cities-h1">Próximas aperturas</h1>
+              <h2 className="Cities-h2">Próximas aperturas</h2>
               <p className="Cities-p">Londres</p>
             </div>
           </section>

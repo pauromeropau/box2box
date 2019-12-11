@@ -5,3 +5,13 @@
   background-color: #482715;
   color: white;
 }
+
+.Contact-h1, .Cities-h1, .Team-h1, .Help-h1, .Social-h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Contact-h2, .Cities-h2, .Team-h2, .Help-h2, .Social-h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

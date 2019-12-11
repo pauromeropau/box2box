@@ -7,7 +7,7 @@ class Plans extends Component {
       <React.Fragment>
         <section className="Plans">
           <div className="Plans-1">
-            <h2 className="Plans-h2">Tenemos el mejor plan para tí</h2>
+            <h2 className="Plans-h2">Tenemos el mejor plan para tí.</h2>
             <p className="Plans-p">Paga solo por el espacio que necesitas. Desde 1m2.</p>
           </div>
           <section className="Plans-2">
