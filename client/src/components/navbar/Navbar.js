@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.css";
+import language from "./language.svg";
 // import { Switch, Route, Redirec, Link } from "react-router-dom";
 
 // import Home from "../Home/Home";
@@ -13,11 +14,12 @@ class Navbar extends Component {
       <React.Fragment>
         <nav className="Navbar">
           <ul className="Navbar-container">
-            <li>Inicio</li>
             <li>¿Cómo funciona?</li>
             <li>Tarifas</li>
             <li>Empresas</li>
             {/* <li><Link to={`/business`}>Empresas</Link></li>  */}
+            {/* <li><img className="Language-Image" src={language} alt="Language"/> Español</li> */}
+            <li> Español</li>
           </ul>
         </nav>
         {/* <Switch>
