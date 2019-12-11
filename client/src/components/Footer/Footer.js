@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import "./Footer.css";
+import instagram from "./images/instagram.svg";
+import facebook from "./images/facebook.svg";
+import linkedin from "./images/linkedin.svg";
+import twitter from "./images/twitter.svg";
 
 class Footer extends Component {
   render() {
@@ -48,8 +52,11 @@ class Footer extends Component {
           </section>
           <section className="Footer-5">
             <div className="Social">
-              <h1 className="Contact-h1">Síguenos</h1>
-              <p className="Contact-phone">600 27 73 30</p>
+              <h1 className="Social-h1">Síguenos</h1>
+              <img className="instagram" src={instagram} alt="Instagram"/>
+              <img className="facebook" src={facebook} alt="Facebook"/>
+              <img className="linkedin" src={linkedin} alt="LinkedIn"/>
+              <img className="twitter" src={twitter} alt="Twitter"/>
             </div>
           </section>
         </footer>

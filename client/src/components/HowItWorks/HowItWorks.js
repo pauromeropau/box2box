@@ -18,9 +18,9 @@ class HowItWorks extends Component {
             <h1 className="HowItWorks-h1">Devolvemos</h1>
             <p className="HowItWorks-p">Te entregamos lo que necesites dónde y cuándo quieras. Sólo tienes que decírnoslo.</p>
           </section>
-          <section className="HowItWorks-4">
+          {/* <section className="HowItWorks-4">
             <h1 className="HowItWorks-h1">Así de simple.</h1>
-          </section>
+          </section> */}
         </section>
       </React.Fragment>
     );

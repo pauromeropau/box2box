@@ -1,6 +1,7 @@
 .Footer {
   min-height: 50vh;
-  padding: 2rem 0rem 2rem 0rem;
+  padding: 2rem 1rem 2rem 1rem;
   font-family: 'Open Sans', sans-serif;
-  
+  background-color: #482715;
+  color: white;
 }

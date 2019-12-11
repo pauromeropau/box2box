@@ -1,6 +1,6 @@
 .HowItWorks {
   min-height: 100vh;
-  padding: 2rem 0rem 1rem 0rem;
+  padding: 2rem 1rem 2rem 1rem;
 }
 
 .HowItWorks-h1 {
@@ -18,6 +18,6 @@
 }
 
 .HowItWorks-1, .HowItWorks-2, .HowItWorks-3, .HowItWorks-4  {
-  min-height: 25vh;
+  min-height: 30vh;
   padding: 0rem 1rem 0rem 1rem;
 }
