@@ -6,24 +6,22 @@ class Zip extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="Intro">
-          <div className="Intro-left">
+        <main className="Intro">
+          <section className="Intro-left">
             <header className="Intro-header">Tu trastero sin levantarte del sofá.</header>
             <h1 className="Intro-h1">
               Recogemos lo que quieras guardar y te lo devolvemos cuando lo
               necesites.
             </h1>
-            <div className="ZIPform-container">
-              <form>
-              <input type="text" placeholder="Código Postal" className="ZIPform"/>
-              <button className="ZIPform-button">COMENZAR</button>
-              </form>
+            <div className="Intro-right">
+              <img className="Boxes-Image" src={boxes} alt="Boxes" />
             </div>
-          </div>
-          <div className="Intro-right">
-          <img className="Boxes-Image" src={boxes} alt="Boxes" />
-          </div>
-        </section>
+            <div className="ZIPform-container">
+              <input type="text" placeholder="Código Postal" className="ZIPform" />
+              <button className="ZIPform-button">COMENZAR</button>
+            </div>
+          </section>
+        </main>
       </React.Fragment>
     );
   }
