@@ -1,4 +1,23 @@
 .HowItWorks {
   min-height: 100vh;
-  border: 6px solid red;
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+.HowItWorks-h1 {
+  font-family: 'Fredoka One', cursive;
+  text-align: start;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.HowItWorks-p {
+  text-align: start;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.HowItWorks-1, .HowItWorks-2, .HowItWorks-3, .HowItWorks-4  {
+  min-height: 25vh;
+  padding: 0rem 1rem 0rem 1rem;
 }
